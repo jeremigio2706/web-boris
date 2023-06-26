@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>El legado del sueño | Post</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/mdb.min.css') }}" />
+    <!-- Bootstrap 5 -->
+    <link href="{{ url_for('static', filename='css/bootstrap.css') }}" rel="stylesheet"/>
+    <!-- Custom styles -->
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet"/>
+    <link href="{{ url_for('static', filename='css/all.css') }}" rel="stylesheet"/>
+  </head>
+  <body>
+    <!--Main Navigation-->
+    <header>
+      <!-- Intro settings -->
+      <style>
+        #intro {
+          /* Margin to fix overlapping fixed navbar */
+          margin-top: 58px;
+        }
+
+        @media (max-width: 991px) {
+          #intro {
+            /* Margin to fix overlapping fixed navbar */
+            margin-top: 45px;
+          }
+        }
+      </style>
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid fuente">
+          <a class="navbar-brand fuente-nombre" href="/">Boris Aguilar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/#Sobre-mi">Sobre Mi</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="true"
+                >
+                  Elite Investment
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="/blog"
+                      >Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item disabled" href="#">Sesión 1 a 1</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item disabled" href="#"
+                      >Elite Sniper v.25</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/#Testimonio">Testimonios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+
+      <!-- Jumbotron -->
+      <div id="intro" class="p-5 text-center bg-light">
+        <h1 class="mb-0 h4">
+          El legado del sueño: De la ventana a la realidad, un viaje de superación y gratitud
+        </h1>
+      </div>
+      <!-- Jumbotron -->
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main class="mt-4 mb-5">
+      <div class="container">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-8 mb-4">
+            <!--Section: Post data-mdb-->
+            <section class="border-bottom mb-4">
+              <img
+                src="/static/image/metaspenultimopost.jpg"
+                class="row img-fluid shadow-2-strong rounded mb-4"
+                alt="El poder del dinero"
+              />
+
+              <div class="row align-items-center mb-4">
+                <div class="col-lg-6 text-center text-lg-start mb-3 m-lg-0">
+                  <img
+                    src="/static/image/boris2.webp"
+                    class="rounded shadow-1-strong me-2"
+                    height="35"
+                    alt="BORIS AGUILAR"
+                    loading="Boris Aguilar"
+                  />
+                  <span>
+                    Publicado <u>20.06.2023</u> <u>1min de lectura</u> by</span
+                  >
+                  <a href="" class="text-dark">Boris Aguilar</a>
+                </div>
+
+                <div class="col-lg-6 text-center text-lg-end">
+                  <button
+                    type="button"
+                    class="btn btn-primary px-3 me-1"
+                    style="background-color: #3b5998"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-primary px-3 me-1"
+                    style="background-color: #55acee"
+                  >
+                    <i class="fab fa-twitter"></i>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-primary px-3 me-1"
+                    style="background-color: #0082ca"
+                  >
+                    <i class="fab fa-linkedin"></i>
+                  </button>
+                  <button type="button" class="btn btn-primary px-3 me-1">
+                    <i class="fas fa-comments"></i>
+                  </button>
+                </div>
+              </div>
+            </section>
+            <!--Section: Post data-mdb-->
+
+            <!--Section: Text-->
+            <section>
+              <p>
+                Mi padre me decía siempre "yo soy pobre con gustos de rico", un
+                hombre muy inteligente que no tuvo las oportunidades que yo
+                tuve. Yo soy como él, de gustos finos y caros que durante toda
+                mi niñez, adolescencia y juventud me tocaba simplemente ver las
+                cosas que quería a través de un escaparate, sin poder tenerlas,
+                soñando despierto con un día poder conseguirlas. Ahora, ya soy
+                un hombre de 35, ya no veo las cosas que quiero en una tienda
+                desde la calle, soy el que entra y elige lo que quiere y paga al
+                contado, pero mientras estoy dentro con mi tarjeta en mano, veo
+                hacia afuera y me veo a mí mismo cuando era un muchacho soñando
+                con un día ser quien ahora soy. Nunca me voy a olvidar de los
+                días de escasez que moldearon mi espíritu, siempre seré ese niño
+                soñador y jamás nada cambiará mi esencia, ni siquiera el dinero.
+              </p>
+
+              <img
+                src="/static/image/metas.jpg"
+                class="img-fluid shadow-1-strong rounded mb-4"
+                alt="La felicidad del dinero"
+              />
+
+              
+            </section>
+            <!--Section: Text-->
+
+            <!--Section: Share buttons-->
+            <section class="text-center border-top border-bottom py-4 mb-4">
+              <p><strong>Comprarte con tus amigos:</strong></p>
+
+              <button
+                type="button"
+                class="btn btn-primary me-1"
+                style="background-color: #3b5998"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary me-1"
+                style="background-color: #55acee"
+              >
+                <i class="fab fa-twitter"></i>
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary me-1"
+                style="background-color: #0082ca"
+              >
+                <i class="fab fa-linkedin"></i>
+              </button>
+              
+            </section>
+            <!--Section: Share buttons-->
+
+            <!--Section: Author-->
+            <section class="border-bottom mb-4 pb-4">
+              <div class="row">
+                <div class="col-3">
+                  <img
+                    src="/static/image/boris2.webp"
+                    class="img-fluid shadow-1-strong rounded"
+                    alt=""
+                  />
+                </div>
+
+                <div class="col-9">
+                  <p class="mb-2"><strong>Boris Aguilar</strong></p>
+                  <a href="" class="text-dark"
+                    ><i class="fab fa-facebook-f me-1"></i
+                  ></a>
+                  <a href="" class="text-dark"
+                    ><i class="fab fa-twitter me-1"></i
+                  ></a>
+                  <a href="" class="text-dark"
+                    ><i class="fab fa-linkedin me-1"></i
+                  ></a>
+                  <p>
+                    Mi nombre es Boris Aguilar comencé mi carrera de “trader” en
+                    2014. Cinco años después fui elegido como el primer analista
+                    latino de “Tradenet”, encargado de manejar a la comunidad
+                    hispana.
+                  </p>
+                </div>
+              </div>
+            </section>
+            <!--Section: Author-->
+            <!--Section: Reply-->
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4 mb-4">
+            <!--Section: Sidebar-->
+            <section class="sticky-top" style="top: 80px">
+              <!--Section: Ad-->
+              <section class="text-center border-bottom pb-4 mb-4">
+                <div class="bg-image hover-overlay ripple mb-4">
+                  <img src="/static/image/tradenet.png" class="img-fluid" />
+                  <a
+                    href="https://es.tradenet.com/"
+                    target="_blank"
+                  >
+                    <div
+                      class="mask"
+                      style="background-color: rgba(57, 192, 237, 0.2)"
+                    ></div>
+                  </a>
+                </div>
+                <h5>Cuenta fondeadas y multiactivos</h5>
+
+                <p>
+                  Sala de trading en vivo, libro de trading y cursos de
+                  formacion, ademas del fondeo de cuentas
+                </p>
+                <a
+                  role="button"
+                  class="btn btn-primary"
+                  href="https://es.tradenet.com/"
+                  target="_blank"
+                  >Tradenet<i class="ms-2"></i
+                ></a>
+              </section>
+              <!--Section: Ad-->
+
+              <!--Section: Video-->
+              <section class="text-center">
+                <h5 class="mb-4">Trades Diarios en Instagrams y YouTube</h5>
+
+                <div
+                  class="embed-responsive embed-responsive-16by9 shadow-4-strong"
+                >
+                  <iframe
+                    class="embed-responsive-item rounded"
+                    src="https://www.youtube.com/embed/a4KgcMf3F0M"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </section>
+              <!--Section: Video-->
+            </section>
+            <!--Section: Sidebar-->
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+    </main>
+    <!--Main layout-->
+
+    <!--Footer-->
+    <footer class="footer" id="Contacto">
+      <section class="footer_container container">
+        <form class="footer_form">
+          <h2 class="footer_contacto">Suscribete</h2>
+          <div class="footer_inputs">
+            <input
+              type="text"
+              placeholder="Nombre completo"
+              class="footer_input"
+            />
+            <input type="email" placeholder="Correo" class="footer_input" />
+            <input type="submit" value="Enviar" class="footer_submit" />
+          </div>
+        </form>
+        <div class="footer_final">
+          <h1 href="/" class="fuente-nombre fuente-nombre--footer">Boris Aguilar</h1>
+          <div class="presentacion-social presentacion-social-footer">
+            <a href="#" class="presentacion_icons presentacion_icons-footer"
+              ><img
+                src="/static/image/instagram copy.svg"
+                alt="Instagram"
+                class="social_img"
+            /></a>
+            <a href="#" class="presentacion_icons"
+              ><img
+                src="/static/image/youtube copy.svg"
+                alt="You Tube"
+                class="social_img"
+            /></a>
+            <a href="#" class="presentacion_icons"
+              ><img
+                src="/static/image/facebook copy.svg"
+                alt="Telegram"
+                class="social_img"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <section class="footer_copy container">
+        <h4 class="footer_copyright">
+          Derechos Reservados &copy; 2023 Boris Aguilar.
+        </h4>
+      </section>
+    </footer>
+    <!--Footer-->
+    <!-- MDB -->
+    <script type="text/javascript" src="../static/js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script src="../static/js/bootstrap manual.js"></script>
+  </body>
+</html>

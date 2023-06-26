@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>El Poder del Dinero | Post</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/mdb.min.css') }}" />
+    <!-- Bootstrap 5 -->
+    <link href="{{ url_for('static', filename='css/bootstrap.css') }}" rel="stylesheet"/>
+    <!-- Custom styles -->
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet"/>
+    <link href="{{ url_for('static', filename='css/all.css') }}" rel="stylesheet"/>
+  </head>
+  <body>
+    <!--Main Navigation-->
+    <header>
+      <!-- Intro settings -->
+      <style>
+        #intro {
+          /* Margin to fix overlapping fixed navbar */
+          margin-top: 58px;
+        }
+
+        @media (max-width: 991px) {
+          #intro {
+            /* Margin to fix overlapping fixed navbar */
+            margin-top: 45px;
+          }
+        }
+      </style>
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid fuente">
+          <a class="navbar-brand fuente-nombre" href="/">Boris Aguilar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/#Sobre-mi">Sobre Mi</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="true"
+                >
+                  Elite Investment
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="/blog"
+                      >Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item disabled" href="#">Sesión 1 a 1</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item disabled" href="#"
+                      >Elite Sniper v.25</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/#Testimonio">Testimonios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+
+      <!-- Jumbotron -->
+      <div id="intro" class="p-5 text-center bg-light">
+        <h1 class="mb-0 h4">
+          El poder del dinero: Tu clave hacia la felicidad
+        </h1>
+      </div>
+      <!-- Jumbotron -->
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main class="mt-4 mb-5">
+      <div class="container">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-8 mb-4">
+            <!--Section: Post data-mdb-->
+            <section class="border-bottom mb-4">
+              <img
+                src="/static/image/lastpost.jpg"
+                class="row img-fluid shadow-2-strong rounded mb-4"
+                alt="El poder del dinero"
+              />
+
+              <div class="row align-items-center mb-4">
+                <div class="col-lg-6 text-center text-lg-start mb-3 m-lg-0">
+                  <img
+                    src="/static/image/boris2.webp"
+                    class="rounded shadow-1-strong me-2"
+                    height="35"
+                    alt="BORIS AGUILAR"
+                    loading="Boris Aguilar"
+                  />
+                  <span>
+                    Publicado <u>25.06.2023</u> <u>2min de lectura</u> by</span
+                  >
+                  <a href="" class="text-dark">Boris Aguilar</a>
+                </div>
+
+                <div class="col-lg-6 text-center text-lg-end">
+                  <button
+                    type="button"
+                    class="btn btn-primary px-3 me-1"
+                    style="background-color: #3b5998"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-primary px-3 me-1"
+                    style="background-color: #55acee"
+                  >
+                    <i class="fab fa-twitter"></i>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-primary px-3 me-1"
+                    style="background-color: #0082ca"
+                  >
+                    <i class="fab fa-linkedin"></i>
+                  </button>
+                  <button type="button" class="btn btn-primary px-3 me-1">
+                    <i class="fas fa-comments"></i>
+                  </button>
+                </div>
+              </div>
+            </section>
+            <!--Section: Post data-mdb-->
+
+            <!--Section: Text-->
+            <section>
+              <p>
+                Absolutamente todo lo que haces tiene que ver con dinero,
+                directa o indirectamente. Hasta el amor necesita dinero porque
+                incluso una flor para regalar tiene precio en el mercado. Pocas
+                cosas en la vida no tienen un enlace con el dinero. Muy pero muy
+                pocas. Unos dirán, "yo me voy a la montaña a meditar y soy feliz
+                allá sin nada material", ah pero para llegar a la montaña
+                necesitaste zapatos para escalar por las piedras, zapatos que
+                cuestan. Si fuiste en bus o en tu auto, necesitaste gasolina u
+                otro combustible. La ropa que usas para vestir o abrigarte en la
+                montaña no la tejiste tú. La comparaste probablemente.
+              </p>
+
+              <p><strong>Podría buscar incontables ejemplos.</strong></p>
+
+              <p>
+                No cabe duda que casi el 100 % de la vida tiene un enlace
+                directo o indirecto con el dinero, porque incluso para
+                mantenernos vivos tenemos que adquirir alimentos, tener un techo
+                y las mínimas condiciones para subsistir. Entonces, si el dinero
+                es tan importante, ¿por qué la gente no hace del dinero una
+                prioridad? ¿Por qué la gente no declara al dinero como uno de
+                los aspectos más importantes de su vida?
+              </p>
+
+              <p class="note note-light">
+                <strong>Note:</strong> Las redes sociales están inundadas de
+                mensajes "romantizadores" de la pobreza. Romantizan la
+                explotación infantil con imágenes de niños trabajando con
+                mensajes absurdos como "un verdadero guerrero que trabaja para
+                su familia", cuando ese niño debería estar en la escuela o en su
+                casa siendo niño, no adulto.
+              </p>
+
+              <p>
+                Hace poco se viralizó la historia del submarino que implosionó
+                con cinco millonarios dentro y casi de inmediato salieron
+                mensajes como "esos hombres eran millonarios pero ni todo el
+                dinero del mundo les salvó ese momento, tú al tener aire que
+                respirar eres más rico que ellos", como tratando de establecer
+                que ser millonario es algo malo porque conduce a la muerte, y
+                ser pobre es bueno porque se tiene aire gratis y es todo lo que
+                se necesita. Son asociaciones conceptuales que conducen a
+                conclusiones equívocas que el común de la gente absorbe como
+                verdaderas. La mente se cree esas cosas y se convencen de que,
+                en conclusión, ser millonario es malo.
+              </p>
+
+              <img
+                src="/static/image/dinero2.jpg"
+                class="img-fluid shadow-1-strong rounded mb-4"
+                alt="La felicidad del dinero"
+              />
+
+              <p>
+                Un tercer ejemplo y también muy común es la casita vieja y
+                antigua donde supuestamente los abuelos eran felices en su
+                pobreza, acompañados de mensajes clásicos de desprecio a la
+                riqueza como fuente de infelicidad y a la pobreza como felicidad
+                verdadera. "Los ricos son infelices, los pobres son felices".
+                Otra falacia absurda de la sociedad. No sabemos cómo realmente
+                fue la vida dentro de esas pequeñas cuatro paredes de barro.
+              </p>
+              <p>
+                En todos los casos, no solo en estos tres ejemplos, sino en los
+                cientos que hay, en todos ellos son gente con limitaciones
+                económicas haciendo ese tipo de afirmaciones tratando de
+                justificar su fracaso financiero para tratar de sentirse bien
+                con ellos mismos por no haber logrado nada trascendental en la
+                vida. Para mí es una forma de justificar su mediocridad y su
+                conformismo. "No necesito nada para ser feliz" o la clásica: "el
+                dinero no compra la felicidad". Algunas personas dicen cosas
+                como "el dinero es del diablo".
+              </p>
+              <p>
+                Todas esas falacias se caen cuando enfermas o uno de tus seres
+                queridos enferma y no tienes seguro o el seguro no cubre los
+                costos de tal enfermedad y necesitas tratamientos y medicamentos
+                especiales de alto costo que no puedes costear. ¿Qué haces? ¿Ves
+                a tu ser amado morir lentamente porque no te preocupaste en su
+                momento de ahorrar dinero porque pensabas que el dinero era
+                malo?
+              </p>
+              <p>
+                No sé si el dinero compre la felicidad, pero sí sé que es un
+                gran aliado para llegar a ella. Examina tu vida personal y
+                encuentra las causas que te hacen sentir frustrado, estresado,
+                desanimado, angustiado o hasta deprimido. Todas esas están
+                ligadas al dinero, más propiamente, a la falta de este.
+                Entonces, vuelvo a lo inicial. ¿Por qué la gente no declara al
+                dinero como uno de los aspectos más importantes de su vida y lo
+                declara una prioridad?
+              </p>
+              <p>
+                Deja de malgastar tu tiempo en cosas que no te reportan
+                absolutamente ningún beneficio a mediano y largo plazo y
+                enfócate ahora en lo que realmente importa. Tus decisiones de
+                hoy te darán mañana lo que hoy anhelas. Reprográmate. El dinero
+                sí es absolutamente fundamental en la vida moderna que nos toca
+                a todos hoy vivir. Cambia tu forma de pensar. El dinero no es
+                malo ni bueno, es solo un medio para cosas mayores. Depende de
+                cada uno el uso que le da en función a los fines que persigue en
+                la vida.
+              </p>
+            </section>
+            <!--Section: Text-->
+
+            <!--Section: Share buttons-->
+            <section class="text-center border-top border-bottom py-4 mb-4">
+              <p><strong>Comprarte con tus amigos:</strong></p>
+
+              <button
+                type="button"
+                class="btn btn-primary me-1"
+                style="background-color: #3b5998"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary me-1"
+                style="background-color: #55acee"
+              >
+                <i class="fab fa-twitter"></i>
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary me-1"
+                style="background-color: #0082ca"
+              >
+                <i class="fab fa-linkedin"></i>
+              </button>
+            </section>
+            <!--Section: Share buttons-->
+
+            <!--Section: Author-->
+            <section class="border-bottom mb-4 pb-4">
+              <div class="row">
+                <div class="col-3">
+                  <img
+                    src="/static/image/boris2.webp"
+                    class="img-fluid shadow-1-strong rounded"
+                    alt=""
+                  />
+                </div>
+
+                <div class="col-9">
+                  <p class="mb-2"><strong>Boris Aguilar</strong></p>
+                  <a href="" class="text-dark"
+                    ><i class="fab fa-facebook-f me-1"></i
+                  ></a>
+                  <a href="" class="text-dark"
+                    ><i class="fab fa-twitter me-1"></i
+                  ></a>
+                  <a href="" class="text-dark"
+                    ><i class="fab fa-linkedin me-1"></i
+                  ></a>
+                  <p>
+                    Mi nombre es Boris Aguilar comencé mi carrera de “trader” en
+                    2014. Cinco años después fui elegido como el primer analista
+                    latino de “Tradenet”, encargado de manejar a la comunidad
+                    hispana.
+                  </p>
+                </div>
+              </div>
+            </section>
+            <!--Section: Author-->
+            <!--Section: Reply-->
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4 mb-4">
+            <!--Section: Sidebar-->
+            <section class="sticky-top" style="top: 80px">
+              <!--Section: Ad-->
+              <section class="text-center border-bottom pb-4 mb-4">
+                <div class="bg-image hover-overlay ripple mb-4">
+                  <img src="/static/image/tradenet.png" class="img-fluid" />
+                  <a
+                    href="https://es.tradenet.com/"
+                    target="_blank"
+                  >
+                    <div
+                      class="mask"
+                      style="background-color: rgba(57, 192, 237, 0.2)"
+                    ></div>
+                  </a>
+                </div>
+                <h5>Cuenta fondeadas y multiactivos</h5>
+
+                <p>
+                  Sala de trading en vivo, libro de trading y cursos de
+                  formacion, ademas del fondeo de cuentas
+                </p>
+                <a
+                  role="button"
+                  class="btn btn-primary"
+                  href="https://es.tradenet.com/"
+                  target="_blank"
+                  >Tradenet<i class="ms-2"></i
+                ></a>
+              </section>
+              <!--Section: Ad-->
+
+              <!--Section: Video-->
+              <section class="text-center">
+                <h5 class="mb-4">Trades Diarios en Instagrams y YouTube</h5>
+
+                <div
+                  class="embed-responsive embed-responsive-16by9 shadow-4-strong"
+                >
+                  <iframe
+                    class="embed-responsive-item rounded"
+                    src="https://www.youtube.com/embed/a4KgcMf3F0M"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </section>
+              <!--Section: Video-->
+            </section>
+            <!--Section: Sidebar-->
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+    </main>
+    <!--Main layout-->
+
+    <!--Footer-->
+    <footer class="footer" id="Contacto">
+      <section class="footer_container container">
+        <form class="footer_form">
+          <h2 class="footer_contacto">Suscribete</h2>
+          <div class="footer_inputs">
+            <input
+              type="text"
+              placeholder="Nombre completo"
+              class="footer_input"
+            />
+            <input type="email" placeholder="Correo" class="footer_input" />
+            <input type="submit" value="Enviar" class="footer_submit" />
+          </div>
+        </form>
+        <div class="footer_final">
+          <h1 href="/" class="fuente-nombre fuente-nombre--footer">Boris Aguilar</h1>
+          <div class="presentacion-social presentacion-social-footer">
+            <a href="#" class="presentacion_icons presentacion_icons-footer"
+              ><img
+                src="/static/image/instagram copy.svg"
+                alt="Instagram"
+                class="social_img"
+            /></a>
+            <a href="#" class="presentacion_icons"
+              ><img
+                src="/static/image/youtube copy.svg"
+                alt="You Tube"
+                class="social_img"
+            /></a>
+            <a href="#" class="presentacion_icons"
+              ><img
+                src="/static/image/facebook copy.svg"
+                alt="Telegram"
+                class="social_img"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <section class="footer_copy container">
+        <h4 class="footer_copyright">
+          Derechos Reservados &copy; 2023 Boris Aguilar.
+        </h4>
+      </section>
+    </footer>
+    <!--Footer-->
+    <!-- MDB -->
+    <script type="text/javascript" src="../static/js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script src="../static/js/bootstrap manual.js"></script>
+  </body>
+</html>

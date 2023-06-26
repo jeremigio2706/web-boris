@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="{{ url_for('static', filename='css/bootstrap.css') }}" rel="stylesheet"/>
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">-->
+
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet"/>
+    <link href="{{ url_for('static', filename='css/all.css') }}" rel="stylesheet"/>
+    <title>Boris Aguilar | Inicio</title>
+</head>
+<body>
+<header class="barra">
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid fuente">
+                <a class="navbar-brand fuente-nombre" href="/">Boris Aguilar</a>
+                <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/"
+                            >Inicio</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Sobre-mi">Sobre Mi</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="navbarDropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="true"
+                            >
+                                Elite Investment
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="/blog">Blog</a></li>
+                                <li>
+                                    <a class="dropdown-item disabled" href="/"
+                                    >Sesión 1 a 1</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="dropdown-item disabled" href="/"
+                                    >Elite Sniper v.25</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Testimonio">Testimonios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section class="container">
+        <div class="container-presentacion">
+            <img
+                    src="/static/image/presentacion.png"
+                    alt="Boris Aguliar Trader Profesional"
+                    class="img-presentacion"
+            />
+
+            <div class="contenedor-textos">
+                <h1 class="presentacion-titulo">
+                    Boris Aguilar Day Trader profesional en Tradenet
+                </h1>
+                <p class="presentacion-paragraph">Fundador de Elite Investment</p>
+                <div class="presentacion-social">
+                    <a href="#" class="presentacion_icons"
+                    ><img
+                            src="/static/image/instagram.svg"
+                            alt="Instagram"
+                            class="social_img"
+                    /></a>
+                    <a href="#" class="presentacion_icons"
+                    ><img
+                            src="/static/image/youtube.svg"
+                            alt="You Tube"
+                            class="social_img"
+                    /></a>
+                    <a href="#" class="presentacion_icons"
+                    ><img
+                            src="/static/image/facebook.svg"
+                            alt="Telegram"
+                            class="social_img"
+                    /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+
+<main>
+    <section class="container" id="Sobre-mi">
+        <div class="sobre-mi-titulo">
+            <h2 class="titulo">Sobre mi</h2>
+        </div>
+        <div class="container-sobre-mi">
+            <div class="sobre-mi-texto">
+                <p>
+                    Mi nombre es Boris Aguilar comencé mi carrera de “trader” en 2014.
+                    Cinco años después fui elegido como el primer analista latino de
+                    “Tradenet”, encargado de manejar a la comunidad hispana. Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Labore modi
+                    quis, praesentium eaque recusandae est ea repudiandae pariatur
+                    atque saepe veniam tempora laborum excepturi nemo impedit neque.
+                    Sint, delectus Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Inventore iusto esse modi placeat dicta magni cupiditate
+                    alias recusandae eaque, nostrum itaque laboriosam deleniti
+                    nesciunt corporis obcaecati. Voluptatum dolores voluptatibus
+                    libero.
+                </p>
+            </div>
+            <div class="sobre-mi-picture">
+                <img
+                        src="/static/image/escritorio2.jpg"
+                        alt="Escritorio de un trader"
+                        class="sobre-mi-img"
+                />
+            </div>
+        </div>
+    </section>
+
+    <section class="segunda-parte container">
+        <article class="analista">
+            <h3 class="titulacion">Analista de Tradenet</h3>
+            <p class="texto-segunda-parte">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+                at, dolor accusantium nobis iste, possimus minima, cupiditate
+                tenetur obcaecati ullam aperiam perferendis debitis ipsum provident
+                adipisci. Fugiat hic numquam autem! Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Ratione, aliquam cumque maiores et
+                eius tempora, ex quia illum minima iste impedit nesciunt dicta
+                voluptatibus harum? Optio dolore sunt maxime quas. Lorem ipsum dolor
+                sit amet, consectetur adipisicing elit. Maxime praesentium ipsam a
+                adipisci voluptas, vero rerum similique pariatur veniam doloremque
+                autem voluptatum nulla temporibus, magni provident. Ab quis
+                excepturi eius rerum, omnis quam ducimus? Vitae id, quod voluptatum
+                sit in suscipit totam ullam iure qui architecto reprehenderit, quo
+                harum beatae.
+            </p>
+        </article>
+        <article class="fundador">
+            <h3 class="titulacion">Fundador de Elite Investment</h3>
+            <p class="texto-segunda-parte">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+                at, dolor accusantium nobis iste, possimus minima, cupiditate
+                tenetur obcaecati ullam aperiam perferendis debitis ipsum provident
+                adipisci. Fugiat hic numquam autem! Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Ratione, aliquam cumque maiores et
+                eius tempora, ex quia illum minima iste impedit nesciunt dicta
+                voluptatibus harum? Optio dolore sunt maxime quas. Lorem ipsum dolor
+                sit amet consectetur adipisicing elit. Perferendis, ipsam ex, eaque
+                deserunt voluptatibus tempora qui, iste quod necessitatibus itaque
+                odio magni? Earum in rem dolores, ea facere officia id aperiam,
+                possimus non, architecto ab iusto repellendus deleniti veniam
+                voluptates voluptas qui. Aliquid error, rem facere cupiditate
+                obcaecati officiis possimus?
+            </p>
+        </article>
+    </section>
+
+    <section class="testimonio" id="Testimonio">
+        <div class="testimonio-titulo container">
+            <h2 class="titulo">Testimonio</h2>
+        </div>
+        <div class="testimonio_container container">
+            <img
+                    src="/static/image/arrowleft.svg"
+                    alt="flecha izquierda"
+                    class="testimony_arrow"
+                    id="before"
+            />
+            <section class="testimony_body testimony_body--show" data-id="1">
+                <div class="testimony_texts">
+                    <h2 class="subtitulo">
+                        Mi nombre es Jorge Ernesto Remigio,
+                        <span class="testimony_curso">
+                  estudiante de Elite Sniper 17
+                </span>
+                    </h2>
+                    <p class="testimony_review">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
+                        beatae soluta nam, corporis illo facilis pariatur. Magnam, vero
+                        cumque. A, provident. Placeat facilis voluptatibus nobis!
+                        Expedita, cupiditate. Perspiciatis, aliquam sit?
+                    </p>
+                </div>
+                <figure class="testimony_picture">
+                    <img
+                            src="/static/image/mujer1.jpg"
+                            alt="mujer trader"
+                            class="testimony_img"
+                    />
+                </figure>
+            </section>
+            <section class="testimony_body" data-id="2">
+                <div class="testimony_texts">
+                    <h2 class="subtitulo">
+                        Mi nombre es Meik Barak,
+                        <span class="testimony_curso">
+                  estudiante de Elite Sniper 21 y Mentor
+                </span>
+                    </h2>
+                    <p class="testimony_review">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
+                        beatae soluta nam, corporis illo facilis pariatur. Magnam, vero
+                        cumque. A, provident. Placeat facilis voluptatibus nobis!
+                        Expedita, cupiditate. Perspiciatis, aliquam sit?
+                    </p>
+                </div>
+                <figure class="testimony_picture">
+                    <img
+                            src="/static/image/hombre1.jpg"
+                            alt="mujer trader"
+                            class="testimony_img"
+                    />
+                </figure>
+            </section>
+            <section class="testimony_body" data-id="3">
+                <div class="testimony_texts">
+                    <h2 class="subtitulo">
+                        Mi nombre es Yenifer Sotolongo,
+                        <span class="testimony_curso"
+                        >estudiante de Elite Sniper 20
+                </span>
+                    </h2>
+                    <p class="testimony_review">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
+                        beatae soluta nam, corporis illo facilis pariatur. Magnam, vero
+                        cumque. A, provident?
+                    </p>
+                </div>
+                <figure class="testimony_picture">
+                    <img
+                            src="/static/image/mujer2.jpg"
+                            alt="mujer trader asombrosa"
+                            class="testimony_img"
+                    />
+                </figure>
+            </section>
+            <img
+                    src="/static/image/arrowright.svg"
+                    alt="flecha derecha"
+                    class="testimony_arrow"
+                    id="next"
+            />
+        </div>
+    </section>
+</main>
+
+<footer class="footer" id="Contacto">
+    <section class="footer_container container">
+        <form class="footer_form">
+            <h2 class="footer_contacto">Suscribete</h2>
+            <div class="footer_inputs">
+                <input
+                        type="text"
+                        placeholder="Nombre completo"
+                        class="footer_input"
+                />
+                <input type="email" placeholder="Correo" class="footer_input"/>
+                <input type="submit" value="Enviar" class="footer_submit"/>
+            </div>
+        </form>
+        <div class="footer_final">
+            <h1 href="/" class="fuente-nombre fuente-nombre--footer">Boris Aguilar</h1>
+            <div class="presentacion-social presentacion-social-footer">
+                <a href="#" class="presentacion_icons presentacion_icons-footer"
+                ><img
+                        src="/static/image/instagram copy.svg"
+                        alt="Instagram"
+                        class="social_img"
+                /></a>
+                <a href="#" class="presentacion_icons"
+                ><img
+                        src="/static/image/youtube copy.svg"
+                        alt="You Tube"
+                        class="social_img"
+                /></a>
+                <a href="#" class="presentacion_icons"
+                ><img
+                        src="/static/image/facebook copy.svg"
+                        alt="Telegram"
+                        class="social_img"
+                /></a>
+            </div>
+        </div>
+    </section>
+    <section class="footer_copy container">
+        <h4 class="footer_copyright">
+            Derechos Reservados &copy; 2023 Boris Aguilar.
+        </h4>
+    </section>
+</footer>
+
+<script src="../static/js/all.js"></script>
+<script src="../static/js/slider.js"></script>
+<!--<script src="D:\programacion\mis_proyectos\landing_page_boris\boris_landing_page\core\static\core\js\bootstrap.js"></script>-->
+<script src="../static/js/bootstrap manual.js"></script>
+</body>
+</html>
